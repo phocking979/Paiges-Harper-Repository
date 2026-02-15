@@ -3,9 +3,16 @@ def calculate_bmi():
     '''
     calculate bmi based on inputs of height and weight
 
-    Args: none
+    Args:
+        weight_lb (float): Weight in pounds (1–1000).
+        total_inches (int): Height in total inches (> 0).
 
-    return: none
+    Returns:
+        float: Calculated BMI value.
+
+    Raises:
+        TypeError: If parameters are not correct types.
+        ValueError: If parameters are out of valid range.
     '''
     # 2: Show exception handling using Python code specific to exception handling
     try:
