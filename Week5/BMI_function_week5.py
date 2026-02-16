@@ -87,7 +87,7 @@ def calculate_bmi():
         total_inches = (height_ft * 12) + height_in
         
         try:
-            # REUSED FORMULA LOGIC
+            # Reused Formula Logic
             bmi = get_bmi_value(weight_lb, total_inches)
             
             assert isinstance(bmi, float), "Result must be a float."
@@ -96,7 +96,7 @@ def calculate_bmi():
             # Output 
             print(f"\nYour Calculated BMI: {bmi:.1f}")
             
-            # --- NEW ADDITION: Display the table after the result ---
+            # Display the table after the result
             display_bmi_table()
 
             print("\nBMI Value Legend")
